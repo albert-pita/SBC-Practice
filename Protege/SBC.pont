@@ -1,0 +1,699 @@
+; Mon May 18 19:25:08 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot su_categoria
+		(type INSTANCE)
+;+		(allowed-classes Categoria)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot presion_sanguinea_diastolica
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tipo_categoria
+		(type SYMBOL)
+		(allowed-values Aerobico De_flexibilidad De_fuerza_y_resistencia)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot afecta_a
+		(type INSTANCE)
+;+		(allowed-classes Grupo+muscular)
+		(create-accessor read-write))
+	(single-slot parte_de_un
+		(type INSTANCE)
+;+		(allowed-classes Conjunto+de+ejercicios)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot esta_contraindicado
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico Persona)
+		(create-accessor read-write))
+	(single-slot peso
+		(type FLOAT)
+		(range 0.0 636.0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot cansancio
+		(type SYMBOL)
+		(allowed-values Ninguna Poca Normal Mucha)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot es_cliente
+		(type INSTANCE)
+;+		(allowed-classes Cadena+de+gimnasios)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot trabaja_objetivo
+		(type INSTANCE)
+;+		(allowed-classes Objetivo)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot duracion
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ya_cumple
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot pulsaciones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tiempo_diario_disponible_min
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot tiene_problema
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico)
+		(create-accessor read-write))
+	(multislot trabaja
+		(type INSTANCE)
+;+		(allowed-classes Grupo+muscular)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot es_parte_de_un
+		(type INSTANCE)
+;+		(allowed-classes Programa+de+entrenamiento)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipo_objetivo
+		(type SYMBOL)
+		(allowed-values Mantenimiento Ponerse_en_forma Rebajar_peso Musculacion Flexibilidad Equilibrio)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot frecuencia_semanal
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot se_recomienda_para
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico)
+		(create-accessor read-write))
+	(single-slot duracion_max
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot combina_bien
+		(type INSTANCE)
+;+		(allowed-classes Ejercicio)
+		(create-accessor read-write))
+	(single-slot se_recomienda
+		(type INSTANCE)
+;+		(allowed-classes Persona)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot formado_por
+		(type INSTANCE)
+;+		(allowed-classes Ejercicio)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot tiempo-entrenamiento
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot su_salud
+		(type INSTANCE)
+;+		(allowed-classes Salud)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot se_pueden_hacer
+		(type INSTANCE)
+;+		(allowed-classes Gimnasio)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot presion_sanguinea_sistolica
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot calidad
+		(type INTEGER)
+		(range 14 43)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot parte_de_una
+		(type INSTANCE)
+;+		(allowed-classes Cadena+de+gimnasios)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipo_actividad
+		(type SYMBOL)
+		(allowed-values Sentado De_pie Esfuerzo_muscular Tareas_del_hogar Pasear_con_o_sin_mascota)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot tiene_como_objetivo
+		(type INSTANCE)
+;+		(allowed-classes Objetivo)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot duracion_min
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot sigue_una_dieta
+		(type INSTANCE)
+;+		(allowed-classes Dieta)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot realiza
+		(type INSTANCE)
+;+		(allowed-classes Actividad)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot altura
+		(type FLOAT)
+		(range 0.0 2.73)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot edad
+		(type INTEGER)
+		(range 0 123)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tirantez_muscular
+		(type SYMBOL)
+		(allowed-values Ninguna Poca Normal Mucha)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Cadena+de+gimnasios
+	(is-a USER)
+	(role concrete)
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Gimnasio
+	(is-a USER)
+	(role concrete)
+	(single-slot parte_de_una
+		(type INSTANCE)
+;+		(allowed-classes Cadena+de+gimnasios)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Conjunto+de+ejercicios
+	(is-a USER)
+	(role concrete)
+	(single-slot se_pueden_hacer
+		(type INSTANCE)
+;+		(allowed-classes Gimnasio)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Ejercicio
+	(is-a USER)
+	(role concrete)
+	(multislot su_categoria
+		(type INSTANCE)
+;+		(allowed-classes Categoria)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot trabaja_objetivo
+		(type INSTANCE)
+;+		(allowed-classes Objetivo)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot se_recomienda_para
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico)
+		(create-accessor read-write))
+	(single-slot parte_de_un
+		(type INSTANCE)
+;+		(allowed-classes Conjunto+de+ejercicios)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot esta_contraindicado
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico Persona)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot trabaja
+		(type INSTANCE)
+;+		(allowed-classes Grupo+muscular)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot combina_bien
+		(type INSTANCE)
+;+		(allowed-classes Ejercicio)
+		(create-accessor read-write))
+	(single-slot duracion_max
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot duracion_min
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Grupo+muscular
+	(is-a USER)
+	(role concrete)
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Extremidad+superior
+	(is-a Grupo+muscular)
+	(role concrete))
+
+(defclass Cintura+escapular
+	(is-a Extremidad+superior)
+	(role concrete))
+
+(defclass Relacionan+escapula-humero
+	(is-a Cintura+escapular)
+	(role concrete))
+
+(defclass Manguito+de+los+rotadores
+	(is-a Relacionan+escapula-humero)
+	(role concrete))
+
+(defclass Coracobraquial
+	(is-a Relacionan+escapula-humero)
+	(role concrete))
+
+(defclass Deltoides
+	(is-a Relacionan+escapula-humero)
+	(role concrete))
+
+(defclass Relacionan+escapula-torso
+	(is-a Cintura+escapular)
+	(role concrete))
+
+(defclass Pectoral+mayor
+	(is-a Relacionan+escapula-torso)
+	(role concrete))
+
+(defclass Pectoral+menor
+	(is-a Relacionan+escapula-torso)
+	(role concrete))
+
+(defclass Serrato+anterior
+	(is-a Relacionan+escapula-torso)
+	(role concrete))
+
+(defclass Relacionan+escapula-columna+vertebral
+	(is-a Cintura+escapular)
+	(role concrete))
+
+(defclass Romboide+mayor
+	(is-a Relacionan+escapula-columna+vertebral)
+	(role concrete))
+
+(defclass Romboide+menor
+	(is-a Relacionan+escapula-columna+vertebral)
+	(role concrete))
+
+(defclass Trapecio
+	(is-a Relacionan+escapula-columna+vertebral)
+	(role concrete))
+
+(defclass Dorsal+amplio
+	(is-a Relacionan+escapula-columna+vertebral)
+	(role concrete))
+
+(defclass Codo
+	(is-a Extremidad+superior)
+	(role concrete))
+
+(defclass Flexor
+	(is-a Codo)
+	(role concrete))
+
+(defclass Biceps+braquial
+	(is-a Flexor)
+	(role concrete))
+
+(defclass Braquial
+	(is-a Flexor)
+	(role concrete))
+
+(defclass Extensor
+	(is-a Codo)
+	(role concrete))
+
+(defclass Triceps+braquial
+	(is-a Extensor)
+	(role concrete))
+
+(defclass Antebrazo
+	(is-a Extremidad+superior)
+	(role concrete))
+
+(defclass Flexor+de+los+dedos+y+manos
+	(is-a Antebrazo)
+	(role concrete))
+
+(defclass Extensor+de+los+dedos+y+manos
+	(is-a Antebrazo)
+	(role concrete))
+
+(defclass Tronco
+	(is-a Grupo+muscular)
+	(role concrete))
+
+(defclass Anterior
+	(is-a Tronco)
+	(role concrete))
+
+(defclass Oblicuo+externo
+	(is-a Anterior)
+	(role concrete))
+
+(defclass Oblicuo+interno
+	(is-a Anterior)
+	(role concrete))
+
+(defclass Recto+del+abdomen
+	(is-a Anterior)
+	(role concrete))
+
+(defclass Recto+del+transverso+del+abdomen
+	(is-a Anterior)
+	(role concrete))
+
+(defclass Posterior
+	(is-a Tronco)
+	(role concrete))
+
+(defclass Paravertebrales
+	(is-a Posterior)
+	(role concrete))
+
+(defclass Extremidad+inferior
+	(is-a Grupo+muscular)
+	(role concrete))
+
+(defclass Extensor+de+cadera
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass Gluteo+mayor
+	(is-a Extensor+de+cadera)
+	(role concrete))
+
+(defclass Isquiotibial
+	(is-a Extensor+de+cadera)
+	(role concrete))
+
+(defclass Semitendinoso
+	(is-a Isquiotibial)
+	(role concrete))
+
+(defclass Semimembranoso
+	(is-a Isquiotibial)
+	(role concrete))
+
+(defclass Biceps+femoral
+	(is-a Isquiotibial)
+	(role concrete))
+
+(defclass Flexor+de+cadera
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass Cuadriceps
+	(is-a Flexor+de+cadera)
+	(role concrete))
+
+(defclass Recto+femoral
+	(is-a Cuadriceps)
+	(role concrete))
+
+(defclass Vasto+lateral
+	(is-a Cuadriceps)
+	(role concrete))
+
+(defclass Vasto+medio
+	(is-a Cuadriceps)
+	(role concrete))
+
+(defclass Vasto+intermedio
+	(is-a Cuadriceps)
+	(role concrete))
+
+(defclass Aductor
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass ADD
+	(is-a Aductor)
+	(role concrete))
+
+(defclass Largo
+	(is-a ADD)
+	(role concrete))
+
+(defclass Corto
+	(is-a ADD)
+	(role concrete))
+
+(defclass Mayor
+	(is-a ADD)
+	(role concrete))
+
+(defclass Gracil
+	(is-a Aductor)
+	(role concrete))
+
+(defclass Pectineo
+	(is-a Aductor)
+	(role concrete))
+
+(defclass Abductor
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass Gluteo+medio
+	(is-a Abductor)
+	(role concrete))
+
+(defclass Gluteo+menor
+	(is-a Abductor)
+	(role concrete))
+
+(defclass TFC
+	(is-a Abductor)
+	(role concrete))
+
+(defclass Compartimiento+anterior
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass Tibial+anterior
+	(is-a Compartimiento+anterior)
+	(role concrete))
+
+(defclass Extensor+de+los+dedos+del+pie
+	(is-a Compartimiento+anterior)
+	(role concrete))
+
+(defclass Compartimiento+posterior
+	(is-a Extremidad+inferior)
+	(role concrete))
+
+(defclass Tibial+posterior
+	(is-a Compartimiento+posterior)
+	(role concrete))
+
+(defclass Triceps+sural
+	(is-a Compartimiento+posterior)
+	(role concrete))
+
+(defclass Flexores+de+los+dedos+del+pie
+	(is-a Compartimiento+posterior)
+	(role concrete))
+
+(defclass Categoria
+	(is-a USER)
+	(role concrete)
+	(single-slot tipo_categoria
+		(type SYMBOL)
+		(allowed-values Aerobico De_flexibilidad De_fuerza_y_resistencia)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Programa+de+entrenamiento
+	(is-a USER)
+	(role concrete)
+	(single-slot se_recomienda
+		(type INSTANCE)
+;+		(allowed-classes Persona)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Entrenamiento
+	(is-a USER)
+	(role concrete)
+	(multislot formado_por
+		(type INSTANCE)
+;+		(allowed-classes Ejercicio)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot es_parte_de_un
+		(type INSTANCE)
+;+		(allowed-classes Programa+de+entrenamiento)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tiempo-entrenamiento
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Persona
+	(is-a USER)
+	(role concrete)
+	(single-slot su_salud
+		(type INSTANCE)
+;+		(allowed-classes Salud)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot cansancio
+		(type SYMBOL)
+		(allowed-values Ninguna Poca Normal Mucha)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot presion_sanguinea_diastolica
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot es_cliente
+		(type INSTANCE)
+;+		(allowed-classes Cadena+de+gimnasios)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot presion_sanguinea_sistolica
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot pulsaciones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot tiene_como_objetivo
+		(type INSTANCE)
+;+		(allowed-classes Objetivo)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot tiempo_diario_disponible_min
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot realiza
+		(type INSTANCE)
+;+		(allowed-classes Actividad)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot altura
+		(type FLOAT)
+		(range 0.0 2.73)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot peso
+		(type FLOAT)
+		(range 0.0 636.0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot edad
+		(type INTEGER)
+		(range 0 123)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tirantez_muscular
+		(type SYMBOL)
+		(allowed-values Ninguna Poca Normal Mucha)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Actividad
+	(is-a USER)
+	(role concrete)
+	(single-slot duracion
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tipo_actividad
+		(type SYMBOL)
+		(allowed-values Sentado De_pie Esfuerzo_muscular Tareas_del_hogar Pasear_con_o_sin_mascota)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot frecuencia_semanal
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Salud
+	(is-a USER)
+	(role concrete)
+	(multislot sigue_una_dieta
+		(type INSTANCE)
+;+		(allowed-classes Dieta)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot tiene_problema
+		(type INSTANCE)
+;+		(allowed-classes Problema+musculo-esqueletico)
+		(create-accessor read-write)))
+
+(defclass Objetivo
+	(is-a USER)
+	(role concrete)
+	(single-slot tipo_objetivo
+		(type SYMBOL)
+		(allowed-values Mantenimiento Ponerse_en_forma Rebajar_peso Musculacion Flexibilidad Equilibrio)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Problema+musculo-esqueletico
+	(is-a USER)
+	(role concrete)
+	(multislot afecta_a
+		(type INSTANCE)
+;+		(allowed-classes Grupo+muscular)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Dieta
+	(is-a USER)
+	(role concrete)
+	(single-slot calidad
+		(type INTEGER)
+		(range 14 43)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

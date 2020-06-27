@@ -1,0 +1,1992 @@
+; Mon May 18 19:25:08 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([SBC_Class0] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class20005]
+		[SBC_Class20004])
+	(nombre "Flexion alterna con rotacion de la muneca y elevacion de los codos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class1] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexion alterna del codo con mancuerna con el codo apoyado sobre el muslo")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class10] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20004])
+	(nombre "Flexion de las munecas con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria
+		[SBC_Class30054]
+		[SBC_Class30055])
+	(trabaja [SBC_Class30015])
+	(trabaja_objetivo
+		[SBC_Class30060]
+		[SBC_Class30056]
+		[SBC_Class30059]))
+
+([SBC_Class100] of  Ejercicio
+
+	(duracion_max 10)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Saltar a la cuerda")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30049]
+		[SBC_Class30036])
+	(trabaja_objetivo
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class10000] of  Conjunto+de+ejercicios
+
+	(nombre "Catalogo de ejercicios")
+	(se_pueden_hacer [SBC_Class10001]))
+
+([SBC_Class10001] of  Gimnasio
+
+	(nombre "Fibness Place")
+	(parte_de_una [SBC_Class30016]))
+
+([SBC_Class10004] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30029]
+		[SBC_Class30031])
+	(nombre "Esguince de ligamentos de la rodilla"))
+
+([SBC_Class10005] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30043]
+		[SBC_Class30044])
+	(nombre "Sindrome de compresion de la salida toracica"))
+
+([SBC_Class101] of  Ejercicio
+
+	(duracion_max 15)
+	(duracion_min 10)
+	(nombre "Natacion")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para
+		[SBC_Class10004]
+		[SBC_Class30005])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30049]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039]
+		[SBC_Class30040]
+		[SBC_Class30041]
+		[SBC_Class30014])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class102] of  Ejercicio
+
+	(duracion_max 20)
+	(duracion_min 15)
+	(nombre "Eliptica")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30049]
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class103] of  Ejercicio
+
+	(duracion_max 20)
+	(duracion_min 15)
+	(nombre "Bicicleta estatica")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class10004])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30049]
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class104] of  Ejercicio
+
+	(duracion_max 10)
+	(duracion_min 5)
+	(nombre "Step")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039])
+	(trabaja_objetivo
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class11] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 4)
+	(esta_contraindicado
+		[SBC_Class20004]
+		[SBC_Class20005])
+	(nombre "Curl de biceps con barra y agarre en pronacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30014])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class12] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de los musculos del antebrazo")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class20004])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30014]
+		[SBC_Class30015])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class13] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Extensiones de triceps en polea alta, manos en pronacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class14] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Extensiones de triceps en polea alta, agarre invertido o en supinacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30014])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class15] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Extension alterna de los antebrazos en polea alta, manos en supinacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class16] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 6)
+	(nombre "Triceps en polea atlas posterior")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30046])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class17] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de los brazos con barra en banco plano")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class18] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de los brazos en posicion tendida con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class19] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension vertical alternada de los brazos con mancuerna")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class2] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexion de los codos con mancuernas en el banco inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class20] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20001])
+	(nombre "Extension alterna de los codos con mancuerna, tronco inclinado hacia delante")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class20001] of  Problema+musculo-esqueletico
+
+	(afecta_a [SBC_Class30010])
+	(nombre "Tendinitis del manguito de los rotadores"))
+
+([SBC_Class20004] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30014]
+		[SBC_Class30015])
+	(nombre "Sindrome del tunel carpiano"))
+
+([SBC_Class20005] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30011])
+	(nombre "Epicondilitis / Codo de tenista"))
+
+([SBC_Class21] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de los brazos, sentado con una mancuerna cogida a dos manos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class22] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de los brazos, sentado, con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30012])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class23] of  Ejercicio
+
+	(duracion_max 1)
+	(duracion_min 2)
+	(nombre "Estiramiento del triceps")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30040]
+		[SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30060]
+		[SBC_Class30056]))
+
+([SBC_Class24] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 4)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Press tras nuca con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class25] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Press frontal con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30011]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class26] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Press sentado con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class27] of  Ejercicio
+
+	(duracion_max 6)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20004])
+	(nombre "Press anterior con rotacion de la muneca")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30011]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class28] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales, tronco inclinado hacia delante")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30041])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class29] of  Ejercicio
+
+	(duracion_max 4)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales de los brazos con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class3] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexion del codo con mancuernas cortas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012]
+		[SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class30] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones anteriores alternas con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class30005] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30007]
+		[SBC_Class30049]
+		[SBC_Class30050])
+	(nombre "Lumbalgia"))
+
+([SBC_Class30006] of  Problema+musculo-esqueletico
+
+	(afecta_a
+		[SBC_Class30007]
+		[SBC_Class30008]
+		[SBC_Class30009])
+	(nombre "Sindrome cervical por tension"))
+
+([SBC_Class30007] of  Paravertebrales
+
+	(nombre "Paravertebrales"))
+
+([SBC_Class30008] of  Romboide+mayor
+
+	(nombre "Romboide mayor"))
+
+([SBC_Class30009] of  Romboide+menor
+
+	(nombre "Romboide menor"))
+
+([SBC_Class30010] of  Manguito+de+los+rotadores
+
+	(nombre "Manguito de los rotadores"))
+
+([SBC_Class30011] of  Triceps+braquial
+
+	(nombre "Triceps braquial"))
+
+([SBC_Class30012] of  Biceps+braquial
+
+	(nombre "Biceps braquial"))
+
+([SBC_Class30013] of  Braquial
+
+	(nombre "Braquial"))
+
+([SBC_Class30014] of  Extensor+de+los+dedos+y+manos
+
+	(nombre "Extensor de los dedos y manos"))
+
+([SBC_Class30015] of  Flexor+de+los+dedos+y+manos
+
+	(nombre "Flexor de los dedos y manos"))
+
+([SBC_Class30016] of  Cadena+de+gimnasios
+
+	(nombre "Coaching Potato"))
+
+([SBC_Class30019] of  Ejercicio
+
+	(combina_bien [SBC_Class30062])
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Curl de biceps con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30043]
+		[SBC_Class30012])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class30020] of  Gluteo+medio
+
+	(nombre "Gluteo medio"))
+
+([SBC_Class30021] of  Gluteo+menor
+
+	(nombre "Gluteo menor"))
+
+([SBC_Class30022] of  TFC
+
+	(nombre "TFC"))
+
+([SBC_Class30023] of  Corto
+
+	(nombre "ADD Corto"))
+
+([SBC_Class30024] of  Largo
+
+	(nombre "ADD Largo"))
+
+([SBC_Class30025] of  Mayor
+
+	(nombre "ADD Mayor"))
+
+([SBC_Class30026] of  Gracil
+
+	(nombre "Gracil"))
+
+([SBC_Class30027] of  Pectineo
+
+	(nombre "Pectineo"))
+
+([SBC_Class30028] of  Extensor+de+los+dedos+del+pie
+
+	(nombre "Extensor de los dedos del pie"))
+
+([SBC_Class30029] of  Tibial+anterior
+
+	(nombre "Tibial anterior"))
+
+([SBC_Class30030] of  Flexores+de+los+dedos+del+pie
+
+	(nombre "Flexores de los dedos del pie"))
+
+([SBC_Class30031] of  Tibial+posterior
+
+	(nombre "Tibial posterior"))
+
+([SBC_Class30032] of  Triceps+sural
+
+	(nombre "Triceps sural"))
+
+([SBC_Class30033] of  Gluteo+mayor
+
+	(nombre "Gluteo mayor"))
+
+([SBC_Class30034] of  Semimembranoso
+
+	(nombre "Isquiotibial semimembranoso"))
+
+([SBC_Class30035] of  Semitendinoso
+
+	(nombre "Isquiotibial semitendinoso"))
+
+([SBC_Class30036] of  Recto+femoral
+
+	(nombre "Recto femoral"))
+
+([SBC_Class30037] of  Vasto+intermedio
+
+	(nombre "Vasto intermedio"))
+
+([SBC_Class30038] of  Vasto+lateral
+
+	(nombre "Vasto lateral"))
+
+([SBC_Class30039] of  Vasto+medio
+
+	(nombre "Vasto medio"))
+
+([SBC_Class30040] of  Dorsal+amplio
+
+	(nombre "Dorsal amplio"))
+
+([SBC_Class30041] of  Trapecio
+
+	(nombre "Trapecio"))
+
+([SBC_Class30042] of  Coracobraquial
+
+	(nombre "Coracobraquial"))
+
+([SBC_Class30043] of  Deltoides
+
+	(nombre "Deltoides"))
+
+([SBC_Class30044] of  Pectoral+mayor
+
+	(nombre "Pectoral mayor"))
+
+([SBC_Class30045] of  Pectoral+menor
+
+	(nombre "Pectoral menor"))
+
+([SBC_Class30046] of  Serrato+anterior
+
+	(nombre "Serrato anterior"))
+
+([SBC_Class30047] of  Oblicuo+externo
+
+	(nombre "Oblicuo externo"))
+
+([SBC_Class30048] of  Oblicuo+interno
+
+	(nombre "Oblicuo interno"))
+
+([SBC_Class30049] of  Recto+del+abdomen
+
+	(nombre "Recto del abdomen"))
+
+([SBC_Class30050] of  Recto+del+transverso+del+abdomen
+
+	(nombre "Recto del transverso del abdomen"))
+
+([SBC_Class30052] of  Biceps+femoral
+
+	(nombre "Biceps femoral"))
+
+([SBC_Class30053] of  Categoria
+
+	(nombre "Aerobico")
+	(tipo_categoria Aerobico))
+
+([SBC_Class30054] of  Categoria
+
+	(nombre "De flexibilidad")
+	(tipo_categoria De_flexibilidad))
+
+([SBC_Class30055] of  Categoria
+
+	(nombre "De fuerza y resistencia")
+	(tipo_categoria De_fuerza_y_resistencia))
+
+([SBC_Class30056] of  Objetivo
+
+	(nombre "Mantenimiento")
+	(tipo_objetivo Mantenimiento))
+
+([SBC_Class30057] of  Objetivo
+
+	(nombre "Ponerse en forma")
+	(tipo_objetivo Ponerse_en_forma))
+
+([SBC_Class30058] of  Objetivo
+
+	(nombre "Rebajar peso")
+	(tipo_objetivo Rebajar_peso))
+
+([SBC_Class30059] of  Objetivo
+
+	(nombre "Musculacion")
+	(tipo_objetivo Musculacion))
+
+([SBC_Class30060] of  Objetivo
+
+	(nombre "Flexibilidad")
+	(tipo_objetivo Flexibilidad))
+
+([SBC_Class30061] of  Objetivo
+
+	(nombre "Equilibrio")
+	(tipo_objetivo Equilibrio))
+
+([SBC_Class30062] of  Ejercicio
+
+	(combina_bien [SBC_Class30019])
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class20005]
+		[SBC_Class20001])
+	(nombre "Dippings entre dos bancos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30058]
+		[SBC_Class30057]
+		[SBC_Class30059]))
+
+([SBC_Class30064] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento del deltoides, del trapecio y del cuello")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class10005])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30044]
+		[SBC_Class30012]
+		[SBC_Class30013])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class30065] of  Ejercicio
+
+	(combina_bien
+		[SBC_Class30066]
+		[SBC_Class30067])
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Squat")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30039]
+		[SBC_Class30033]
+		[SBC_Class30038]
+		[SBC_Class30037]
+		[SBC_Class30026]
+		[SBC_Class30020]
+		[SBC_Class30024]
+		[SBC_Class30025])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]
+		[SBC_Class30056]))
+
+([SBC_Class30066] of  Ejercicio
+
+	(combina_bien
+		[SBC_Class30065]
+		[SBC_Class30067])
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Isquiotibiales sentado en maquina")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30034]
+		[SBC_Class30035]
+		[SBC_Class30052])
+	(trabaja_objetivo
+		[SBC_Class30058]
+		[SBC_Class30057]
+		[SBC_Class30059]
+		[SBC_Class30056]))
+
+([SBC_Class30067] of  Ejercicio
+
+	(combina_bien
+		[SBC_Class30065]
+		[SBC_Class30066])
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de los tobillos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30032]
+		[SBC_Class30022])
+	(trabaja_objetivo
+		[SBC_Class30058]
+		[SBC_Class30057]
+		[SBC_Class30059]
+		[SBC_Class30056]))
+
+([SBC_Class30068] of  Ejercicio
+
+	(combina_bien [SBC_Class30069])
+	(duracion_max 3)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class30005])
+	(nombre "Elevacion del tronco en el suelo")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30047]
+		[SBC_Class30049]
+		[SBC_Class30050])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class30069] of  Ejercicio
+
+	(combina_bien [SBC_Class30068])
+	(duracion_max 2)
+	(duracion_min 3)
+	(nombre "Estiramiento de los abdominales")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class30005])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30047])
+	(trabaja_objetivo
+		[SBC_Class30060]
+		[SBC_Class30056]))
+
+([SBC_Class30071] of  Ejercicio
+
+	(combina_bien
+		[SBC_Class30069]
+		[SBC_Class30064])
+	(duracion_max 60)
+	(duracion_min 15)
+	(nombre "Correr")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30053])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30039]
+		[SBC_Class30038]
+		[SBC_Class30052]
+		[SBC_Class30034]
+		[SBC_Class30035]
+		[SBC_Class30029]
+		[SBC_Class30032]
+		[SBC_Class30020]
+		[SBC_Class30021]
+		[SBC_Class30033]
+		[SBC_Class30050]
+		[SBC_Class30049]
+		[SBC_Class30030]
+		[SBC_Class30028]
+		[SBC_Class30011]
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class31] of  Ejercicio
+
+	(duracion_max 3)
+	(duracion_min 2)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales, acostado de lado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class32] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones anteriores alternas con polea baja")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class33] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20004])
+	(nombre "Elevacion anterior en polea baja, mano en semipronacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class34] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de los haces anteriores del deltoides")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para
+		[SBC_Class10005]
+		[SBC_Class30006])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30012]
+		[SBC_Class30043])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class35] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Cara posterior de los hombros en polea doble")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30043]
+		[SBC_Class30008]
+		[SBC_Class30009])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class36] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Rotacion externa del brazo en polea")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30009]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]))
+
+([SBC_Class37] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales con polea baja, tronco inclinado hacia delante")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30008]
+		[SBC_Class30043]
+		[SBC_Class30009]
+		[SBC_Class30041])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class38] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 4)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales alternas con polea baja")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]))
+
+([SBC_Class39] of  Ejercicio
+
+	(duracion_max 3)
+	(duracion_min 2)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones frontales con una mancuerna")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class4] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexion alterna de los codos con polea baja")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class41] of  Ejercicio
+
+	(duracion_max 3)
+	(duracion_min 2)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones frontales con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]))
+
+([SBC_Class42] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Traccion vertical en la barra, manos separadas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30043])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class43] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 6)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Elevaciones laterales en la maquina")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class44] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Parte posterior de los hombros en maquina")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30043]
+		[SBC_Class30008]
+		[SBC_Class30009])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class45] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(esta_contraindicado [SBC_Class20001])
+	(nombre "Estiramiento de los musculos posteriores del manguito de los rotadores")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30010])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class46] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de los hombros")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para
+		[SBC_Class30006]
+		[SBC_Class10005])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30043])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class47] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Press de banca inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30043]
+		[SBC_Class30046]
+		[SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class48] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento del pectoral mayor")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class49] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Press de banco plano")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30043]
+		[SBC_Class30011])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class5] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class10004]
+		[SBC_Class20001])
+	(nombre "Biceps con los brazos en curz en polea alta")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class50] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Press de banco plano, manos juntas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class51] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Press de banco inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class52] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Press de banco inclinado en la maquina convergente")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30044])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class53] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado
+		[SBC_Class20005]
+		[SBC_Class20001])
+	(nombre "Fondos en paralelas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30044]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class54] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexiones de brazos en el suelo")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30011]
+		[SBC_Class30044])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class55] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Press con mancuernas en banco plano")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30043]
+		[SBC_Class30011])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class56] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Aperturas con mancuernas en banco plano")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30045]
+		[SBC_Class30044])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class57] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Press con mancuernas en banco inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30044]
+		[SBC_Class30011]
+		[SBC_Class30046])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class58] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Aperturas con mancuernas en banco inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30044])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class59] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Aperturas en contractor de pecho")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30044])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class6] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Flexion de codos con barra, manos en supinacion")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class61] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Cruces de pie con poleas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30045])
+	(trabaja_objetivo [SBC_Class30057]))
+
+([SBC_Class62] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Pull-over con mancuerna")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30044]
+		[SBC_Class30040]
+		[SBC_Class30046])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class63] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Pull-over con barra en banco plano")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30044]
+		[SBC_Class30011]
+		[SBC_Class30040]
+		[SBC_Class30046])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class64] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Dominadas en barra fija")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class30005])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30040]
+		[SBC_Class30041]
+		[SBC_Class30008]
+		[SBC_Class30009])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class65] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Dominadas en barra fija, con agarre estrecho en supinacion")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class30005])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class66] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento del dorsal ancho y del redondo mayor")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class10005])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30040])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class67] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Traccion pecho en polea altra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class68] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class20005]
+		[SBC_Class30006]
+		[SBC_Class10005])
+	(nombre "Traccion tras nuca en polea altra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30009]
+		[SBC_Class30008]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class69] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Polea al pecho con agarre estrecho")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30012]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class7] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class20005]
+		[SBC_Class20001])
+	(nombre "Biceps en el banco scott")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class70] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Remo en polea baja")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30008]
+		[SBC_Class30040]
+		[SBC_Class30043])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class71] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Pull-over con polea altra y brazos extendidos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30011]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30057]
+		[SBC_Class30056]))
+
+([SBC_Class72] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Remo horizontal a una mano con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013]
+		[SBC_Class30043]
+		[SBC_Class30041]
+		[SBC_Class30040]
+		[SBC_Class30008])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class73] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class30006]
+		[SBC_Class10005])
+	(nombre "Traccion horizontal con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30043]
+		[SBC_Class30041]
+		[SBC_Class30008]
+		[SBC_Class30009]
+		[SBC_Class30040])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]
+		[SBC_Class30056]))
+
+([SBC_Class74] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Remo horizontal con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30013]
+		[SBC_Class30041]
+		[SBC_Class30043]
+		[SBC_Class30040]
+		[SBC_Class30008]
+		[SBC_Class30009])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class75] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado
+		[SBC_Class30005]
+		[SBC_Class10005])
+	(nombre "Peso muerto")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30041]
+		[SBC_Class30015]
+		[SBC_Class30007]
+		[SBC_Class30049]
+		[SBC_Class30047]
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039]
+		[SBC_Class30033])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class76] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de la espalda en barra fija")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para
+		[SBC_Class30005]
+		[SBC_Class30006]
+		[SBC_Class10005])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30040])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class77] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10005])
+	(nombre "Encogimiento de hombros con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30041])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class79] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Flexion de rodillas con mancuernas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30020]
+		[SBC_Class30033]
+		[SBC_Class30036]
+		[SBC_Class30038]
+		[SBC_Class30037])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class8] of  Ejercicio
+
+	(duracion_max 6)
+	(duracion_min 4)
+	(esta_contraindicado [SBC_Class20005])
+	(nombre "Curl de biceps en el banco scott")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30012]
+		[SBC_Class30013])
+	(trabaja_objetivo [SBC_Class30059]))
+
+([SBC_Class80] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Press de piernas inclinado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30036])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class81] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Extension de rodillas en maquina")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30038]
+		[SBC_Class30039]
+		[SBC_Class30037])
+	(trabaja_objetivo
+		[SBC_Class30059]
+		[SBC_Class30057]))
+
+([SBC_Class82] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento del cuadriceps")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30036]
+		[SBC_Class30038]
+		[SBC_Class30037])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class83] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Isquiotibiales alterno, de pie, en maquina")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30035]
+		[SBC_Class30052]
+		[SBC_Class30034])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class84] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de los isquiotibiales")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30052]
+		[SBC_Class30033]
+		[SBC_Class30025]
+		[SBC_Class30035])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class85] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(nombre "Aductores en polea baja")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class10004])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30024]
+		[SBC_Class30025]
+		[SBC_Class30027]
+		[SBC_Class30026])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class86] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de la pantorrilla")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30029])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class87] of  Ejercicio
+
+	(duracion_max 7)
+	(duracion_min 5)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Flexiones anteriores de una pierna")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30033]
+		[SBC_Class30036]
+		[SBC_Class30038]
+		[SBC_Class30039])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class88] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class10004])
+	(nombre "Zancadas con mancuerna")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30033]
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class89] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Extension de la cadera en polea baja")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30033])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class9] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class20004])
+	(nombre "Extension de las munecas con barra")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria
+		[SBC_Class30055]
+		[SBC_Class30054])
+	(trabaja [SBC_Class30014])
+	(trabaja_objetivo
+		[SBC_Class30060]
+		[SBC_Class30059]
+		[SBC_Class30056]))
+
+([SBC_Class90] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 2)
+	(nombre "Elevacion de la pelvis en el suelo")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para [SBC_Class30005])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30052]
+		[SBC_Class30033])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class91] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento del gluteo mayor y de los isquiotibiales")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30033])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class92] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Abduccion de la cadera, acostado")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja [SBC_Class30020])
+	(trabaja_objetivo
+		[SBC_Class30061]
+		[SBC_Class30056]
+		[SBC_Class30057]))
+
+([SBC_Class93] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento de los gluteos")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30054])
+	(trabaja [SBC_Class30033])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class94] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado
+		[SBC_Class30005]
+		[SBC_Class30006])
+	(nombre "Crunch")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30049]
+		[SBC_Class30047]
+		[SBC_Class30036])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class96] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(esta_contraindicado [SBC_Class30005])
+	(nombre "Elevacion de piernas en plancha inclinada")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30049]
+		[SBC_Class30036]
+		[SBC_Class30037]
+		[SBC_Class30038]
+		[SBC_Class30039])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30059]
+		[SBC_Class30057]
+		[SBC_Class30058]))
+
+([SBC_Class97] of  Ejercicio
+
+	(duracion_max 2)
+	(duracion_min 1)
+	(nombre "Estiramiento general de la parte superior del cuerpo")
+	(parte_de_un [SBC_Class10000])
+	(se_recomienda_para
+		[SBC_Class10005]
+		[SBC_Class30006]
+		[SBC_Class20001])
+	(su_categoria [SBC_Class30054])
+	(trabaja
+		[SBC_Class30015]
+		[SBC_Class30012]
+		[SBC_Class30011]
+		[SBC_Class30044]
+		[SBC_Class30040]
+		[SBC_Class30049])
+	(trabaja_objetivo [SBC_Class30060]))
+
+([SBC_Class98] of  Ejercicio
+
+	(duracion_max 5)
+	(duracion_min 3)
+	(nombre "Elevacion de rodillas en paralelas")
+	(parte_de_un [SBC_Class10000])
+	(su_categoria [SBC_Class30055])
+	(trabaja
+		[SBC_Class30047]
+		[SBC_Class30049]
+		[SBC_Class30036])
+	(trabaja_objetivo
+		[SBC_Class30056]
+		[SBC_Class30057]
+		[SBC_Class30058]))
